@@ -1,0 +1,17 @@
+BROWSER JS:
+
+browser js is maninly used for client side or front end applications.
+it is sandboxed for the safety purpose and have access limited to the browser
+it has all predefined objects but missing on GLOBAL,REQUIRE etc..
+it runs in any engine according to the browser.
+it is not headless and moduling is not mandatory for browserjs.
+
+
+NODE JS:
+
+node js is used for backend applications.
+it has full system access that is it can read and write directly to the file system.
+it has many missing objects like WINDOW,LOCATION,DOCUMENT, etc..
+it runs in v8 engine
+it is headless that is without any GUI 
+in nodejs everything is a module thatis mandatory to keep everything inside a module..
