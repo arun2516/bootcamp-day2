@@ -1,0 +1,8 @@
+SUMMARY ON HOW BROWSER RENDERING AN WEBSITE:
+In high level flow of rendering process HTML,CSS are get parse and then =>render tress is formed by combining DOM and CSSOM and=> layout process if happen finally=> paint will happen.
+you cant always control the HTML rendered on your page if you have a dynamic content etc..
+script tag will always stop the parser from going through the HTML constructor and DOM tree.
+so for the performane always keep the script tag in the bottom so it wont affect the parsing process.
+use defer will actually defer the execution until its actually done parsing.
+Async will work slightly different it will do a seperate thread and actually parse and execute the script in that thread adjacent to the parsing one.
+in rendering tree render object has a reference to the DOM object when the DOM node is connected to render object.
